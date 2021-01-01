@@ -1,0 +1,3 @@
+﻿<dizor>
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='NavObject']/@value">,zombie</append>
+</dizor>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="DizorCandies" />
+		<Description value="Makes some candies effects reasonable." />
+		<Author value="Dizor" />
+		<Version value="1.0" />
+  </ModInfo>
+</xml>

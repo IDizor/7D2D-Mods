@@ -1,0 +1,4 @@
+<dizor>
+	<set xpath="/blocks/block[@name='trapSpikesWoodMaster']/property[@name='MaxDamage']/@value">90</set>
+	<set xpath="/blocks/block[@name='trapSpikesScrapIronMaster']/property[@name='MaxDamage']/@value">500</set>
+</dizor>

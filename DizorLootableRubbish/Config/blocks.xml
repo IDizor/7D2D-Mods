@@ -1,0 +1,17 @@
+<dizor>
+  <remove xpath="/blocks/block[@name='garbage_decor1']/drop[@name='resourcePaper']"/>
+  <remove xpath="/blocks/block[@name='garbage_decor3']/drop[@name='resourceBrokenGlass']"/>
+  
+	<append xpath="/blocks/block[@name='garbage_decor1']">
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="DisplayInfo" value="Description"/>
+    <property name="Class" value="CropsGrown"/>
+    <drop event="Harvest" name="resourcePaper" count="1" tag="allHarvest"/>
+	</append>
+  <append xpath="/blocks/block[@name='garbage_decor3']">
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="DisplayInfo" value="Description"/>
+    <property name="Class" value="CropsGrown"/>
+    <drop event="Harvest" name="resourceBrokenGlass" count="1" tag="allHarvest"/>
+	</append>
+</dizor>

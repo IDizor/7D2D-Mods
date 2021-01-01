@@ -1,0 +1,4 @@
+<dizor>
+  <set xpath="/items/item[@name='drugEyeKandy']/effect_group[@name='Candy Tier 1']/display_value[@name='dLootGamestageFlat']/@value">20</set>
+  <set xpath="/items/item[@name='drugEyeKandy']/effect_group[@name='Candy Tier 1']/display_value[@name='dLootGamestagePerc']/@value">.2</set>
+</dizor>

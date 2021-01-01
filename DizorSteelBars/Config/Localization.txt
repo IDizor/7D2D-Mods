@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+steelBars,blocks,Block,,,Steel Bars,Стальные прутья
+steelBarsCentered,blocks,Block,,,Steel Bars Centered,Центрованные стальные прутья
+steelBarsDesc,blocks,Block,,,You can see and shoot through steel bars and they offer great protection.,"Через стальные прутья можно смотреть и стрелять, при этом они обеспечивают отличную защиту."

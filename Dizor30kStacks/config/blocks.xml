@@ -1,0 +1,7 @@
+<dizor>
+  <set xpath="/blocks/block/property[@name='Stacknumber'][@value>1]/@value">30000</set>
+  
+  <append xpath="/blocks/block/property[not(contains(@name,'Stacknumber'))]/..">
+    <property name="Stacknumber" value="30000"/>
+  </append>
+</dizor>

@@ -1,0 +1,9 @@
+﻿<dizor>
+  <set xpath="/nav_object_classes/nav_object_class[@name='party']/onscreen_settings/property[@name='min_distance']/@value">6</set>
+  <set xpath="/nav_object_classes/nav_object_class[@name='party']/onscreen_settings/property[@name='max_distance']/@value">-1</set>
+  <set xpath="/nav_object_classes/nav_object_class[@name='party']/onscreen_settings/property[@name='sprite_name']/@value">ui_game_symbol_player</set>
+  
+  <append xpath="/nav_object_classes/nav_object_class[@name='party']/onscreen_settings">
+    <property name="max_scale_distance" value="200"/>
+  </append>
+</dizor>

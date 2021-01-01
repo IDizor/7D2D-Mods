@@ -1,0 +1,3 @@
+<dizor>
+  <set xpath="/lootcontainers/lootgroup[@name='junk']/item[@name='resourceSewingKit']/@count">1,4</set>
+</dizor>

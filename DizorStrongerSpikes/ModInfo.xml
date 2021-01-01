@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DizorStrongerSpikes" />
+		<Description value="Wood spikes and iron spikes have more health." />
+		<Author value="Dizor" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

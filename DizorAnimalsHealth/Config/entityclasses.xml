@@ -1,0 +1,13 @@
+﻿<dizor>
+  
+  <set xpath="/entity_classes/entity_class[@name='animalWolf']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">100</set>
+  <set xpath="/entity_classes/entity_class[@name='animalCoyote']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">60</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">300</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieDog']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">100</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBoar']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">200</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBossGrace']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1200</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1000</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='animalStag']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">100</set>
+  
+</dizor>

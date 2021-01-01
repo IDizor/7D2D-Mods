@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DizorSewingKits" />
+		<Description value="Increases the amount of sewing kits in junk." />
+		<Author value="Dizor" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,4 @@
+<dizor>
+  <!-- Set time to 7200 seconds. -->
+  <set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">7200</set>
+</dizor>

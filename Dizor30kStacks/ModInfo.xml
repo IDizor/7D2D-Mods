@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Dizor30kStacks" />
+		<Description value="Sets stack max size for all items to 30k." />
+		<Author value="Dizor" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
