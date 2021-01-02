@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="DizorYellowLoot" />
-		<Description value="Yellow backpacks stay longer." />
+		<Description value="Yellow backpacks stay longer on the ground (2 real hours)." />
 		<Author value="Dizor" />
 		<Version value="1.0" />
 	</ModInfo>
