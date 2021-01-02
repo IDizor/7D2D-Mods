@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="DizorSteelBars" />
-    <Description value="Player can create steel bars." />
+    <Description value="Adds steel bars to the game." />
     <Author value="Dizor" />
     <Version value="1.0" />
   </ModInfo>
