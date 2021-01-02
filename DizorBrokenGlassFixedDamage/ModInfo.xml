@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="DizorBrokenGlassFixedDamage" />
-		<Description value="The broken glass does not kill player any more. The player will receive fixed 20 damage instead." />
+		<Description value="The broken glass deals 20 damage instead of killing player." />
 		<Author value="Dizor" />
 		<Version value="1.0" />
 	</ModInfo>
