@@ -3,7 +3,7 @@
 <xml>
 	<ModInfo>
 		<Name value="DizorPlayerMarkers" />
-		<Description value="Adds players on-screen sprites." />
+		<Description value="Adds on-screen markers to see far players." />
 		<Author value="Dizor" />
 		<Version value="1.0" />
 	</ModInfo>
