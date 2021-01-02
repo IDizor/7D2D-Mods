@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DizorBrokenGlassFixedDamage" />
+		<Description value="The broken glass does not kill player any more. The player will receive fixed 20 damage instead." />
+		<Author value="Dizor" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

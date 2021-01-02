@@ -1,0 +1,10 @@
+<dizor>
+  <set xpath="/items/item[@name='resourceBrokenGlass']/property[@class='Action0']/property[@name='Gain_health']/@value">-20</set>  
+  <remove xpath="/items/item[@name='resourceBrokenGlass']/effect_group" />
+  
+  <append xpath="/items/item[@name='resourceBrokenGlass']">
+    <effect_group tiered="false">
+      <display_value name="foodHealthAmount" value="-20"/>
+    </effect_group>
+  </append>
+</dizor>
