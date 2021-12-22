@@ -1,0 +1,56 @@
+<dizor>
+  <append xpath="/windows">
+    <!-- Left HUD - Food and Water -->
+	<window name="DizorFoodWaterBars" controller="CharacterFrameWindow" cursor_area="false">
+		<!-- Screen-wide invisible button hack to have it clicked by user anyway. Sets {showcharacter} = false, {showstats} = true. -->
+		<rect depth="999" name="searchControls" width="3000" height="2000" pos="0,0" visible="{showcharacter}" >
+			<button depth="4" name="statButton" pos="1000,1000" width="3000" height="2000" sprite="" pivot="center" />
+		</rect>
+
+		<!-- Unused XML part that cannot be removed -->
+		<rect visible="{showcharacter}">
+			<panel name="previewFrame" depth="0" pos="0,-1000" width="257" disableautobackground="true" snap="false">
+				<rect>
+					<texture depth="2" name="playerPreview" material="Materials/Transparent Colored" size="1,1" globalopacity="false"/>
+				</rect>
+			</panel>
+		</rect>
+      	<panel name="header" height="43" depth="1" pos="0,-1000" backgroundspritename="ui_game_panel_header">
+			<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="ui_game_symbol_character"/>
+			<label depth="2" name="characterName" pos="42,-6" width="150" height="32" text="" font_size="32" />
+			<sprite depth="2" name="windowIcon" width="26" height="26" pos="200,-8" sprite="ui_game_symbol_trophy" />
+			<label depth="2" name="levelNumber" pos="240,-10" width="80" height="28" text="" />
+		</panel>
+		<!-- End of unused XML part -->
+
+		<!-- Food and Water bars -->
+		<rect name="hud" pos="184,106" rows="2" cols="1" width="168" side="right">
+			<rect width="171" height="46" pos="0,0" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+				<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+
+				<filledsprite depth="5" name="BarContent" color="0,188,0,130" width="169" type="filled" fill="0"  />
+				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="35,35" pos="26,-24" pivot="center" foregroundlayer="true"/>
+				<label depth="7" name="TextContent" pos="44,-23" font_size="32" color="[white]" justify="center" pivot="left" text="{playermodifiedcurrentfood}/{playerfoodmax}" width="125" height="35"/>
+
+				<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+				<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+				<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+			</rect>
+
+			<rect width="171" height="46" pos="0,-50" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+				<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+				
+				<filledsprite depth="5" name="BarContent" color="71,174,243,150" width="169" type="filled" fill="0" />
+				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="35,35" pos="26,-24" pivot="center" foregroundlayer="true"/>
+				<label depth="7" name="TextContent" pos="44,-23" font_size="32" color="[white]" justify="center" pivot="left" text="{playermodifiedcurrentwater}/{playerwatermax}" width="125" height="35"/>
+
+				<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+				<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+				<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+			</rect>
+		</rect>
+    </window>
+  </append>
+</dizor>
