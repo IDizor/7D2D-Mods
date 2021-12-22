@@ -1,21 +1,21 @@
 ﻿<dizor>
 
-  <insertAfter xpath="/nav_object_classes/nav_object_class[@name='zombie']">
+  <insertBefore xpath="/nav_object_classes/nav_object_class[@name='zombie']/map_settings">
     <property name="requirement_type" value="None" />
-  </insertAfter>
+  </insertBefore>
 
   <remove xpath="/nav_object_classes/nav_object_class[@name='zombie']/map_settings"/>
   
   <append xpath="/nav_object_classes/nav_object_class[@name='zombie']">
     <map_settings>
-      <property name="sprite_name" value="ui_game_symbol_zombie"/>
+      <property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
       <property name="min_distance" value="0"/>
       <property name="max_distance" value="-1"/>
       <property name="color" value="255,5,0,255"/>
     </map_settings>
   </append>
   
-  <set xpath="/nav_object_classes/nav_object_class[@name='zombie']/compass_settings/property[@name='max_distance']/@value">5</set>
+  <set xpath="/nav_object_classes/nav_object_class[@name='zombie']/compass_settings/property[@name='max_distance']/@value">12</set>
   <set xpath="/nav_object_classes/nav_object_class[@name='zombie']/compass_settings/property[@name='max_scale_distance']/@value">2</set>
 
   <append xpath="/nav_object_classes/nav_object_class[@name='clear_sleeper']/compass_settings">
